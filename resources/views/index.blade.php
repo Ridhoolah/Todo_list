@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Laravel PHP Framework</title>
+	<title>My Todo List</title>
 	<style>
 		body {
 			margin:10px auto;

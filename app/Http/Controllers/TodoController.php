@@ -27,7 +27,7 @@ class TodoController extends Controller
 		$content = json_decode(file_get_contents($path), true);
 
 		$last_item = end($content);
-		$last_item_id = $last_item['id'];
+		$last_item_id = (isset($last_item['id'])) ? $last_item['id'] : 0;
 
 		$content[] = array("id" => ++$last_item_id, "title" => $name, "date" => $date);
 
